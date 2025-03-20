@@ -1,0 +1,28 @@
+Tipos Abstratos de Dados: conceitos, operações, representação, manipulação
+
+estruturas de dados lineares: fila
+
+As filas (Queue) são listas lineares que adotam a política FIFO (First In First Out) para a manipulaçao
+dos elementos inseridos em uma estrutura de dados do tipo FILA
+
+
+
+Inserções são feitas sempre no final da fila (enfileirar um elemento);
+ao enfilerar verificar se a fila está cheia (fila = max-1).
+
+*Se a fila está cheia, imprimir mensagem "fila cheia";
+*Se não, enfileirar o elemento e atualizar o fim da fila
+
+ 
+Remoções são feitas no sempre no início da fila (desenfileirar um elemento): 
+Ao DESENFILEIRAR verificar se a fila está vazia (fim = -1):
+ 
+*Se a fila está vazia, imprimir mensagem "fila vazia".
+*Se não, desenfileirar, mostrar o elemento desenfileirado e movimentar 
+os elementos das posições i+1 para i, i = 1 ... n-1.
+
+
+
+
+
+
